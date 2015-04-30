@@ -10,5 +10,6 @@ public class LevelManager : MonoBehaviour {
 
 	public void quitRequest() {
 		Debug.Log ("Request to quit made.");
+		Application.Quit();
 	}
 }
